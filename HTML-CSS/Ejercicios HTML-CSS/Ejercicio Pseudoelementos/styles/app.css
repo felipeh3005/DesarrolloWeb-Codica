@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font: 18px/1.5 sans-serif;
+}
+
+.profile-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+/* Escribe aquí los estilos de los pseudoelementos */
+
+/* BEGIN (write your solution here) */
+h2::before {
+    content: "👤";
+    margin-right: 5px;
+}
+
+h2::after {
+    content: "";
+    margin-top: 5px;
+    background-color: #ccc;
+    height: 2px;
+    display: block;
+    width: 100%;
+}
+
+p::first-letter {
+	color: #6936f4;
+	font-size: 1.5em;
+	font-weight: bold;
+}

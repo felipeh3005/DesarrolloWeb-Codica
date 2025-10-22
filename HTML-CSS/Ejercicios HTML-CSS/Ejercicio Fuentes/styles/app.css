@@ -1,0 +1,131 @@
+/* Aquí debes definir las fuentes personalizadas usando @font-face:
+una para normal y otra para negrita */
+
+/* BEGIN (write your solution here) */
+@font-face {
+  font-weight: normal;
+  font-family: Cormorant;
+  src: url("../assets/fonts/Cormorant-Regular.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: Cormorant;
+  src: url("../assets/fonts/Cormorant-Bold.ttf");
+}
+
+body {
+  width: 790px;
+  margin: 0 auto;
+  padding: 50px 0 100px;
+
+  /* Aquí debes definir el estilo base de fuente para el body */
+
+  /* BEGIN (write your solution here) */
+
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: #ebebeb;
+}
+
+figure {
+  margin: 50px 0 0;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  margin-bottom: 30px;
+
+  /* Aquí debes definir el color y la fuente del logo */
+
+  /* BEGIN (write your solution here) */
+  color: #333;
+  font-size: 30px;
+  line-height: normal;
+  font-family: Cormorant, serif;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.nav > * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a {
+  /* Aquí debes definir el color y el peso de la fuente
+  de los enlaces de navegación */
+
+  /* BEGIN (write your solution here) */
+
+  color: #616161;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.interview {
+  /* Aquí debes definir el color y la fuente de los textos de entrevista */
+
+  /* BEGIN (write your solution here) */
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: serif;
+}
+
+.interview-header {
+  /* Aquí debes definir el color y la fuente
+  para la descripción de la entrevista */
+
+  /* BEGIN (write your solution here) */
+
+  font-size: 50px;
+  line-height: 1.2;
+  font-family: Cormorant;
+  font-weight: bold;
+}
+
+.interview-description {
+  /* BEGIN (write your solution here) */
+
+  color: #686868;
+  font-family: sans-serif;
+}
+
+.interview-footer {
+  /* Aquí debes definir el tamaño, la altura de línea
+  y alineación del pie de página de la entrevista */
+
+  /* BEGIN (write your solution here) */
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: right;
+}
+
+.interview-text {
+  /* Aquí debes definir el tamaño de fuente, la altura de línea
+  y la alineación del texto de la entrevista */
+
+  /* BEGIN (write your solution here) */
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: justify;
+}

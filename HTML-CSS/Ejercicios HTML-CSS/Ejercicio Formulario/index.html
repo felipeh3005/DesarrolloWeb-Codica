@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+    <form class="block-center form">
+        <!-- BEGIN (write your solution here) -->
+        <h1>Feedback</h1>
+        <div class="form-input mb-2">
+            <label for="nombre" class="sr-only">Nombre</label>
+            <input type="text" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-input mb-2">
+            <label for="email" class="sr-only">Email</label>
+            <input type="text" placeholder="Tu Email" required>
+        </div>
+        <div class="form-input mb-2">
+            <textarea name="mensaje" id="mensaje" placeholder="Tu Mensaje" required></textarea>
+        </div>
+        <div class="small mb-1">
+            <input type="radio" name="Acepto las reglas del servicio" required>Acepto las reglas del servicio
+        </div>
+        <!-- END -->
+        <button class="btn btn-green">Enviar mensaje</button>
+    </form>
+</body>
+</html>
