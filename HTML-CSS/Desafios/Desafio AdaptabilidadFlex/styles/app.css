@@ -1,0 +1,101 @@
+/* === ESTILOS GENERALES DE LA PÁGINA === */
+body {
+  margin: 0; /* Elimina el margen por defecto del navegador */
+  padding: 0; /* Elimina el padding por defecto del navegador */
+
+  color: #333; /* Color base del texto */
+  font-family: sans-serif; /* Fuente principal limpia y legible */
+  line-height: 1.5; /* Espaciado entre líneas para mejor lectura */
+
+  background: #f9f9f9; /* Fondo gris claro para todo el sitio */
+}
+
+h1 {
+  margin: 0; /* Elimina el margen superior e inferior del encabezado principal */
+}
+
+p {
+  margin-bottom: 0; /* Elimina el margen inferior de los párrafos */
+}
+
+/* === BLOQUE DEL MENÚ LATERAL (ASIDE) === */
+.flexible-aside {
+    /*
+    flex: 0 0 300px;
+    → Esto significa:
+        - 0: no crecerá (no tomará más espacio del asignado)
+        - 0: no se encogerá (no se hará más pequeño)
+        - 300px: su ancho fijo será de 300 píxeles
+    */
+    flex: 0 0 300px;
+}
+
+/* === BLOQUE PRINCIPAL DE CONTENIDO === */
+.main {
+    /*
+    flex: 1 1 700px;
+    → Esto significa:
+        - 1: puede crecer si hay espacio disponible
+        - 1: puede encogerse si el espacio es limitado
+        - 700px: su ancho base o inicial
+    */
+    flex: 1 1 700px;
+}
+
+/* === UTILIDADES FLEXBOX === */
+.d-flex {
+  display: flex; /* Activa el modo flex en un contenedor */
+}
+
+.flex-wrap {
+  flex-wrap: wrap; /* Permite que los elementos bajen de línea si no caben */
+}
+
+/* === CONTENEDOR GENERAL === */
+.container {
+  padding: 10px 20px; /* Espaciado interno arriba/abajo 10px, lados 20px */
+}
+
+/* === BARRA DE NAVEGACIÓN === */
+.nav {
+  border-bottom: 1px solid #e0e0e0; /* Línea divisoria gris clara en la parte inferior */
+}
+
+.nav ul {
+  display: flex; /* Los elementos <li> se alinean en fila */
+  flex-wrap: wrap; /* Si no caben, saltan a la siguiente línea */
+  margin: 0; /* Elimina márgenes por defecto del <ul> */
+  padding: 0; /* Elimina padding por defecto del <ul> */
+
+  list-style: none; /* Quita los puntos o numeración de la lista */
+}
+
+.nav li {
+  display: flex; /* Cada <li> se convierte en un contenedor flex */
+  flex-grow: 1; /* Hace que todos los <li> crezcan por igual */
+  align-items: center; /* Centra verticalmente su contenido */
+  padding: 15px 30px; /* Espaciado interno: 15px arriba/abajo, 30px a los lados */
+}
+
+.nav a {
+  color: inherit; /* Usa el mismo color que su contenedor (hereda de li o nav) */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.nav li:hover {
+  color: #3c3c3c; /* Cambia el color del texto al pasar el mouse */
+  background: #f1f1f1; /* Fondo ligeramente más oscuro */
+  cursor: pointer; /* Muestra el cursor de “mano” */
+}
+
+/* === MEDIA QUERY: PANTALLAS PEQUEÑAS === */
+@media (max-width: 1040px) {
+    .flexible-aside {
+        /*
+        En pantallas más pequeñas (<1040px),
+        el menú lateral ya no debe ocupar solo 300px.
+        Se hace adaptable y ocupa todo el ancho disponible.
+        */
+        flex: 1 1 100%;
+    }
+}
