@@ -5,13 +5,13 @@ una para normal y otra para negrita */
 @font-face {
   font-weight: normal;
   font-family: Cormorant;
-  src: url("../assets/fonts/Cormorant-Regular.ttf");
+  src: url('../assets/fonts/Cormorant-Regular.ttf');
 }
 
 @font-face {
   font-weight: bold;
   font-family: Cormorant;
-  src: url("../assets/fonts/Cormorant-Bold.ttf");
+  src: url('../assets/fonts/Cormorant-Bold.ttf');
 }
 
 body {

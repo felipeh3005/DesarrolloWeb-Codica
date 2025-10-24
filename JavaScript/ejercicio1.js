@@ -1,8 +1,8 @@
 const student = {
-    name: 'juan',
-    age: '36',
-    courses: ['matematicas','español','biologia']
-}
+  name: 'juan',
+  age: '36',
+  courses: ['matematicas', 'español', 'biologia'],
+};
 student.name = 'felipe';
 student.apellido = 'higuita';
 delete student.age;
@@ -10,6 +10,5 @@ delete student.age;
 console.log(student);
 
 const addCourse = (newCourse) => {
-    student.courses.push(newCourse);
-}
-
+  student.courses.push(newCourse);
+};

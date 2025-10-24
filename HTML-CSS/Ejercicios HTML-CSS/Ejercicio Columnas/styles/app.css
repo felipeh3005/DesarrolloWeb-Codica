@@ -1,69 +1,69 @@
 html {
-    color: #463f3a;
-    font: 18px/1.5 sans-serif;
+  color: #463f3a;
+  font: 18px/1.5 sans-serif;
 }
 
 body {
-    width: 980px;
-    margin: 0 auto;
-    padding: 70px;
+  width: 980px;
+  margin: 0 auto;
+  padding: 70px;
 }
 
 h1,
 h2,
 h3,
 p {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 h1 {
-    color: #e07a5f;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
+  color: #e07a5f;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .article {
-    /* En esta sección debes organizar el contenido en varias columnas
+  /* En esta sección debes organizar el contenido en varias columnas
     con espacio entre ellas y una línea decorativa de separación. */
 
-    /* BEGIN (write your solution here) */
-    column-count: 2;
-    column-gap: 50px;
-    column-rule: 1px solid #3d405b;
+  /* BEGIN (write your solution here) */
+  column-count: 2;
+  column-gap: 50px;
+  column-rule: 1px solid #3d405b;
 }
 
 .applicants {
-    margin: 50px 0;
-    padding: 20px;
+  margin: 50px 0;
+  padding: 20px;
 
-    color: #f4f1de;
+  color: #f4f1de;
 
-    /* Aquí el contenido debe mostrarse en varias columnas,
+  /* Aquí el contenido debe mostrarse en varias columnas,
     pero el encabezado debe mantenerse a lo ancho del bloque. */
 
-    /* BEGIN (write your solution here) */
-    column-count: 2;
-    column-span: all;
-    background: #3d405b;
-    }
+  /* BEGIN (write your solution here) */
+  column-count: 2;
+  column-span: all;
+  background: #3d405b;
+}
 
-    .applicants-header {
-    /*   Asegúrate de que este título no se divida en columnas
+.applicants-header {
+  /*   Asegúrate de que este título no se divida en columnas
     y ocupe el ancho completo del bloque. */
 
-    /* BEGIN (write your solution here) */
-    column-span: all;
+  /* BEGIN (write your solution here) */
+  column-span: all;
 }
 
 .member-name {
-    margin: 20px 0 0;
+  margin: 20px 0 0;
 
-    font-weight: bold;
+  font-weight: bold;
 }

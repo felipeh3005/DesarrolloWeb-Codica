@@ -1,71 +1,71 @@
 @font-face {
-    font-weight: 400;
-    font-family: "JetBrains Mono";
-    src: url("../assets/fonts/JetBrainsMono-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-family: 'JetBrains Mono';
+  src: url('../assets/fonts/JetBrainsMono-Regular.ttf') format('ttf');
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 
-    background: #7e57c2;
+  background: #7e57c2;
 }
 
 .terminal {
-    padding: 20px 30px;
-    color: white;
-    background-color: #263238;
-    border-radius: 5px;
+  padding: 20px 30px;
+  color: white;
+  background-color: #263238;
+  border-radius: 5px;
 }
 
 .terminal-header {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .btn-red {
-    background-color: #ff5f56;
+  background-color: #ff5f56;
 }
 
 .btn-yellow {
-    background-color: #ffbd2e;
+  background-color: #ffbd2e;
 }
 
 .btn-green {
-    background-color: #27c93f;
+  background-color: #27c93f;
 }
 
 .btn-red,
 .btn-yellow,
 .btn-green {
-    border-radius: 50px;
-    width: 11px;
-    height: 11px;
-    margin-right: 5px;
-    padding: 0;
-    border: 0;
+  border-radius: 50px;
+  width: 11px;
+  height: 11px;
+  margin-right: 5px;
+  padding: 0;
+  border: 0;
 }
 
 pre {
-    margin: 0;
+  margin: 0;
 }
 
 code {
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: "JetBrains Mono", monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .code-tag {
-    color: #ff5370;
+  color: #ff5370;
 }
 
 .code-attr {
-    color: #ffcb6b;
+  color: #ffcb6b;
 }
 
 .code-string {
-    color: #c3e88d;
+  color: #c3e88d;
 }

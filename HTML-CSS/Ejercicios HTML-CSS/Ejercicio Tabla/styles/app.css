@@ -1,56 +1,56 @@
 body {
-    margin: 0;
+  margin: 0;
 
-    color: #333;
-    font: 18px/1.5 sans-serif;
+  color: #333;
+  font: 18px/1.5 sans-serif;
 }
 
 .bg-blue {
-    color: #fff;
+  color: #fff;
 
-    background: #009bcc;
+  background: #009bcc;
 }
 
 .bg-green {
-    color: #fff;
+  color: #fff;
 
-    background: #96c21f;
+  background: #96c21f;
 }
 
 .bg-orange {
-    color: #fff;
+  color: #fff;
 
-    background: #ed6b04;
+  background: #ed6b04;
 }
 
 .todo-table {
-    width: 100%;
+  width: 100%;
 
-    background: #f5f5f5;
+  background: #f5f5f5;
 }
 
 .todo-table th {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .todo-table td,
 .todo-table th {
-    width: 14%;
-    padding: 20px 0;
+  width: 14%;
+  padding: 20px 0;
 }
 
 .todo-table td {
-    text-align: center;
+  text-align: center;
 }
 
 .todo-name {
-    margin-bottom: 0;
+  margin-bottom: 0;
 
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .todo-time {
-    margin-top: 0;
+  margin-top: 0;
 
-    font-size: 14px;
+  font-size: 14px;
 }

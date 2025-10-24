@@ -1,13 +1,13 @@
 // Datos del pedido
-let producto = 'Chocolate';
-let precio = 4500;
-let cantidad = 3;
-let cliente = 'andrés';
+const producto = 'Chocolate';
+const precio = 4500;
+const cantidad = 3;
+const cliente = 'andrés';
 
 // Procesar datos
-let total = precio * cantidad;
-let nombreFormateado = cliente.trim().toUpperCase();
-let resumen = `🧾 Pedido de ${producto.toUpperCase()} x${cantidad}`;
+const total = precio * cantidad;
+const nombreFormateado = cliente.trim().toUpperCase();
+const resumen = `🧾 Pedido de ${producto.toUpperCase()} x${cantidad}`;
 
 // Mostrar en consola
 console.log(`👋 Hola, ${nombreFormateado}`);

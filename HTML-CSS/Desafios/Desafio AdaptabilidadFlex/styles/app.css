@@ -20,26 +20,26 @@ p {
 
 /* === BLOQUE DEL MENÚ LATERAL (ASIDE) === */
 .flexible-aside {
-    /*
+  /*
     flex: 0 0 300px;
     → Esto significa:
         - 0: no crecerá (no tomará más espacio del asignado)
         - 0: no se encogerá (no se hará más pequeño)
         - 300px: su ancho fijo será de 300 píxeles
     */
-    flex: 0 0 300px;
+  flex: 0 0 300px;
 }
 
 /* === BLOQUE PRINCIPAL DE CONTENIDO === */
 .main {
-    /*
+  /*
     flex: 1 1 700px;
     → Esto significa:
         - 1: puede crecer si hay espacio disponible
         - 1: puede encogerse si el espacio es limitado
         - 700px: su ancho base o inicial
     */
-    flex: 1 1 700px;
+  flex: 1 1 700px;
 }
 
 /* === UTILIDADES FLEXBOX === */
@@ -90,12 +90,12 @@ p {
 
 /* === MEDIA QUERY: PANTALLAS PEQUEÑAS === */
 @media (max-width: 1040px) {
-    .flexible-aside {
-        /*
+  .flexible-aside {
+    /*
         En pantallas más pequeñas (<1040px),
         el menú lateral ya no debe ocupar solo 300px.
         Se hace adaptable y ocupa todo el ancho disponible.
         */
-        flex: 1 1 100%;
-    }
+    flex: 1 1 100%;
+  }
 }

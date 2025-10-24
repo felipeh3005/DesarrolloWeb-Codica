@@ -1,80 +1,80 @@
 @font-face {
-    font-weight: 400;
-    font-family: "Roboto Mono";
-    src: url("../assets/fonts/RobotoMono-Regular.ttf");
+  font-weight: 400;
+  font-family: 'Roboto Mono';
+  src: url('../assets/fonts/RobotoMono-Regular.ttf');
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 
-    font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
 
-    background: #333131;
+  background: #333131;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 /* BEGIN (write your solution here) */
 .calculation {
-    width: 300px;
-    background: #2c3e50;
-    font-family: "Roboto Mono", monospace;
+  width: 300px;
+  background: #2c3e50;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .calculator-result {
-    padding: 30px;
-    background: #505c68;
-    text-align: right;
-    color: #fff;
-    min-height: 155px;
-    box-sizing: border-box;
+  padding: 30px;
+  background: #505c68;
+  text-align: right;
+  color: #fff;
+  min-height: 155px;
+  box-sizing: border-box;
 }
 
 .calculator-line {
-    column-count: 4;
-    column-gap: 0;
+  column-count: 4;
+  column-gap: 0;
 }
 
 .calculator-item {
-    height: 75px;
-    width: 100%;
-    font-size: 1.2em;
-    display: block;
-    border: 0;
-    background: none;
-    color: #fff;
-    font-family: "Roboto Mono";
-    cursor: pointer;
+  height: 75px;
+  width: 100%;
+  font-size: 1.2em;
+  display: block;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-family: 'Roboto Mono';
+  cursor: pointer;
 }
 
 .calculator-item:hover {
-    background: #364c63;
+  background: #364c63;
 }
 /* END */
 
 .small {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 .bg-blue {
-    background: #3498db;
+  background: #3498db;
 }
 
 .bg-blue:hover {
-    background: #67b2e4;
+  background: #67b2e4;
 }
 
 .text-big {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .text-gray {
-    color: #ced4d9;
+  color: #ced4d9;
 }

@@ -1,17 +1,19 @@
-@font-face { /*declarar fuentes cargadas en la ruta especifica (archivos .woff y . woff2); crear carpeta 'fonts' */
-    font-family: Roboto;
-    font-weight: normal;
-    font-style: normal;
-        src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-             url("../fonts/Roboto-Regular.woff") format("woff");
+@font-face {
+  /*declarar fuentes cargadas en la ruta especifica (archivos .woff y . woff2); crear carpeta 'fonts' */
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
 }
 
 h1 {
-    color: #007bff;
+  color: #007bff;
 }

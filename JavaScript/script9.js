@@ -1,13 +1,13 @@
 // BEGIN (write your solution here)// agrega los numeros desde el inicio hasta el fin//
 const joinNumbersFromRange = (inicio, fin) => {
-    let result = '';
-    let i = inicio;
+  let result = '';
+  let i = inicio;
 
-    while (i <= fin) {
-        result = result + i;
-        i += 1
-    }
+  while (i <= fin) {
+    result += i;
+    i += 1;
+  }
 
-    return result;
-}
+  return result;
+};
 // END

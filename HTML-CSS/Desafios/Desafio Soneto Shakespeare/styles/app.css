@@ -8,12 +8,12 @@
 /* BEGIN (write your solution here) */
 @font-face {
   font-family: Caveat;
-  src: url("../assets/fonts/Caveat-Regular.ttf");
+  src: url('../assets/fonts/Caveat-Regular.ttf');
 }
 
 @font-face {
   font-family: Marckscript;
-  src: url("../assets/fonts/MarckScript-Regular.ttf");
+  src: url('../assets/fonts/MarckScript-Regular.ttf');
 }
 /* END */
 
@@ -55,7 +55,7 @@ body {
 
   background-color: #ff5722;
 
-  content: "";
+  content: '';
 }
 
 /* Estilos para .paper: márgenes internos, tipografía y líneas del fondo */
@@ -68,7 +68,12 @@ body {
   padding: 0 60px;
   font-size: var(--font-size);
   line-height: var(--line-height);
-  background-image: repeating-linear-gradient(#fff, #fff calc(var(--line-height) - 1px), #80cbc4 calc(var(--line-height) - 1px), #80cbc4 var(--line-height));
+  background-image: repeating-linear-gradient(
+    #fff,
+    #fff calc(var(--line-height) - 1px),
+    #80cbc4 calc(var(--line-height) - 1px),
+    #80cbc4 var(--line-height)
+  );
 }
 
 pre {
